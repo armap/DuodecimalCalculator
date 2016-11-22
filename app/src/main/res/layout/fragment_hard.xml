@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.arnaumarti.calculator.fragments.HardFragment">
+
+    <TextView
+        style="@style/tabHeading"
+        android:text="@string/heading_hard" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/numSize"
+            android:text="@string/sumSign"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/maxNumDigitsForNumbers"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/liLayout1stNumber"
+                style="@style/numberLinearLayout" />
+
+            <LinearLayout
+                android:id="@+id/liLayout2ndNumber"
+                style="@style/numberLinearLayout">
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/liLayoutResultNumber"
+        style="@style/resultLinearLayout" />
+
+    <GridView
+        android:id="@+id/gridViewDuodecimalKeyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_new" />
+</LinearLayout>

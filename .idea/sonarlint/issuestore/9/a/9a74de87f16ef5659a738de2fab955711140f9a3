@@ -1,0 +1,30 @@
+
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(À‘³
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(÷¢²Ñ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(ÔÔñ¬øÿÿÿÿ
+=squid:S1185"(Remove this method to simply inherit it.(ßìê¯
+xsquid:S1450"^Remove the "maxNumStringB12" field and declare it as a local variable in the relevant methods.(É­Şÿıÿÿÿÿ
+tsquid:S1450"ZRemove the "firstNumB12" field and declare it as a local variable in the relevant methods.(¾Ä—úÿÿÿÿ
+gsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(æ¹‘e
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(½€Šêúÿÿÿÿ
+}squid:S1450"cRemove the "maxDigitStringBase12" field and declare it as a local variable in the relevant methods.(üûöÛüÿÿÿÿ
+psquid:S1450"[Remove the "secondNumB12" field and declare it as a local variable in the relevant methods.(®ÅºÊ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(Úâ«Û
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ßíŠÿÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ã¼–òûÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(“ÿ“ıÿÿÿÿ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(Ğ³ÕŠ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(¶á“¸ûÿÿÿÿ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(–„æïıÿÿÿÿ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(ÄËÅ¢úÿÿÿÿ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(„¯Ó
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(•Â¸˜øÿÿÿÿ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(ˆ¡¦¿
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(€‚Š÷ùÿÿÿÿ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(Ö•ØÊ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(£‘ßÚ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(š¶âº
+zsquid:S1488"`Immediately return this expression instead of assigning it to the temporary variable "fragment".(«÷Šûÿÿÿÿ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(±ìŒ›øÿÿÿÿ
+squid:S1450"eRemove the "mCurrentDigitResultStr" field and declare it as a local variable in the relevant methods.(¸¨Ó›ûÿÿÿÿ
+usquid:S1450"`Remove the "maxDigitIntBase12" field and declare it as a local variable in the relevant methods.(şŞå

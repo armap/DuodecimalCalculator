@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <attr name="attrTxtViewDigitStyle" format="reference"/>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="txtViewsListRanking">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingEnd">1dp</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txtViewsListRanking.weightColumnNum">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="txtViewsListRanking.weightColumnName">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">6</item>
+    </style>
+
+    <style name="txtViewsListRanking.weightColumnPoints">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <style name="tabHeading">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:background">@android:color/holo_blue_dark</item>
+    </style>
+
+
+    <!--<style name="txtViewDigitStyle">-->
+        <!--<item name="android:layout_width">0dp</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textSize">@dimen/numSize</item>-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:paddingBottom">6dp</item>-->
+        <!--<item name="android:paddingTop">6dp</item>-->
+    <!--</style>-->
+
+    <style name="numberLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+    </style>
+    <style name="resultLinearLayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+
+
+</resources>
