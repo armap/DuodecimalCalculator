@@ -1,5 +1,5 @@
 # DuodecimalCalculator
-Android app: Duodecimal Calculator - Ranking read from JSON
+Android app: Duodecimal Calculator - Ranking loaded from JSON
 
 La app sirve para sumar en base 12.
 Calcular en base 12 es lo mismo que en base 10, solo que tenemos dos símbolos adicionales que representan el 10 y el 11, que por convenio suelen ser los caracteres griegos chi (χ) y épsilon (ε) respectivamente. Por ejemplo:
